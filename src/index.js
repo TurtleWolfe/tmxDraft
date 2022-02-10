@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./theme";
+import { AuthProvider } from "./hooks/AuthContext";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AuthProvider>
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
+    </AuthProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
