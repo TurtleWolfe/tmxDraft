@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with CookBook
 
 ```bash
  npx create-react-app tmx
@@ -9,6 +9,96 @@
  npm i react-router-dom
  npm start
  ```
+
+<!-- [I'm an inline-style link with title](https://www.google.com "Google's Homepage")   -->
+## [MUI](https://mui.com/ "Material User Interface, The React UI library you always wanted")  
+
+## [react-hook-form](https://react-hook-form.com/get-started "react-hook-form")  
+
+## [react-router-dom](https://www.npmjs.com/package/react-router-dom?activeTab=versions "React Router")  
+
+# [https://turtlewolfe.github.io/tmxT/](https://turtlewolfe.github.io/tmxT/ "StoryBook demo in TypeScript")
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app "cra").
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run build-storybook`
+
+```bash
+  # Creat React App
+ npx create-react-app tmxt --template typescript
+  # change directory to tmxt
+ cd tmxt
+  # install UI FrameWork 
+  # MUI or React-BootStrap 
+ #  npm install react-bootstrap bootstrap@5.1.3
+ npm install @mui/material @emotion/react @emotion/styled
+ npm install @mui/icons-material
+  # open in VS Code
+ code .
+  # Initialize Storybook:
+ npx sb init
+ ```
+
+**`src/index.tsx` or `App.tsx`**  
+
+  ```javascript
+import 'bootstrap/dist/css/bootstrap.min.css';
+  ```  
+
+ or better yet, use the CDN in **`public/index.html`**
+  at the bottom of the body tag.
+  
+```html
+
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous"
+/>
+```
+
+change `output` directory to `docs` in **`package.json`**  
+
+  ```json
+  {
+    "build-storybook": "build-storybook -o docs -s public"
+    }
+  ```  
+
+ ```bash
+  # Run Storybook:
+#  npm run storybook
+  # Build StoryBook:
+  npm run build-storybook
+```
+
+commit changes and push to **`repo`**  
+
+ ```bash
+  # add remote origin
+  git remote add origin git@github.com:TurtleWolfe/tmxT.git
+  git branch -M main
+  git push -u origin main
+  # git status
+  git status
+  # git add all
+  git add .
+  # git commit message
+  git commit -m "update storybook"
+  # git push
+  git push
+```
+
+add dark theme by creating **`.storybook/manager.js`**
+
+## [tmxT StoryBook Demo](https://turtlewolfe.github.io/tmxT/ "StoryBook demo in TypeScript")
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
