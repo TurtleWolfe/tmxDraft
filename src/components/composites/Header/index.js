@@ -57,7 +57,7 @@ export default function Header() {
                 style={{ height: "64px", padding: "8px", marginRight: "8px" }}
               />
               <Typography variant="h4" sx={{ fontWeight: "bold" }}>
-                Cookbook
+                TeamMX
               </Typography>
             </Box>
             <Stack direction="row" alignItems="center" spacing={8}>

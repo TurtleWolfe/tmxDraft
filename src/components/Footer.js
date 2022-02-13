@@ -1,4 +1,8 @@
-import { Paper, Typography } from "@mui/material";
+import {
+  Link,
+  Paper,
+  Typography
+} from "@mui/material";
 
 export default function Footer(props) {
   return (
@@ -8,7 +12,7 @@ export default function Footer(props) {
         minHeight: "80px",
         // bgcolor: "#f8f8ff",
         bgcolor: "primary.main",
-        borderTop: 4,
+        borderTop: 2,
         borderColor: "secondary.main",
         display: "flex",
         flexDirection: "row",
@@ -18,8 +22,17 @@ export default function Footer(props) {
         bottom: 0,
       }}
     >
-      <Typography variant="h5" color="secondary.main">
-        © 2022 Joy of Coding
+      <Typography
+        variant="h5"
+        color="secondary.main"
+      >
+        <Link
+          color="secondary.main"
+          href="https://github.com/TurtleWolfe/tmx"
+          underline="hover"
+        >
+          {'© 2022 tmx'}
+        </Link>
       </Typography>
     </Paper>
   );
