@@ -98,7 +98,9 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
+
 * npm
+
   ```sh
   npm install npm@latest -g
   ```
@@ -107,14 +109,19 @@ This is an example of how to list things you need to use the software and how to
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
+
    ```sh
    git clone https://github.com/TurtleWolfe/tmx.git
    ```
+
 3. Install NPM packages
+
    ```sh
    npm install
    ```
+
 4. Enter your API in `config.js`
+
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
@@ -202,7 +209,7 @@ Project Link: [https://github.com/TurtleWolfe/tmx](https://github.com/TurtleWolf
 
 ## Getting Started with the CookBook
 
-## [https://turtlewolfe.github.io/tmx/](https://turtlewolfe.github.io/tmx/ "StoryBook demo in TypeScript")
+## [https://turtlewolfe.github.io/tmx/](https://turtlewolfe.github.io/tmx/ "StoryBook demo")
 
 ```bash
  npx create-react-app tmx
@@ -243,7 +250,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app "cra").
 
-### added GitHub Pages to Available Scripts
+### add GitHub Pages to Available Scripts
 
 ```bash
 npm i gh-pages -D
@@ -269,35 +276,35 @@ npm i gh-pages -D
 ```
 
 1. Reference-style:  
-![alt text][demo04]  
-1. Reference-style:  
-![alt text][demo04]  
-1. Reference-style:  
-![alt text][demo04]  
-1. Reference-style:  
-![alt text][demo04]  
+![alt text][demo01]  
+<!-- 1. Reference-style:   -->
+<!-- ![alt text][demo04]   -->
+<!-- 1. Reference-style:   -->
+<!-- ![alt text][demo04]   -->
+<!-- 1. Reference-style:   -->
+<!-- ![alt text][demo04]   -->
 
-[demo01]: public/images/ReadMe/logo.png "Logo Title Text 2"
+[demo01]: public/images/ReadMe/GitHubPages.png "Logo Title Text 2"
 [demo02]: public/images/ReadMe/logo.png "Logo Title Text 2"
 [demo03]: public/images/ReadMe/logo.png "Logo Title Text 2"
 [demo04]: public/images/ReadMe/logo.png "Logo Title Text 2"
 
-### added StoryBook to Available Scripts
+### add StoryBook to Available Scripts
 
 In the project directory, you can run:
 
-### `npm run build-storybook`
+## `npm run build-storybook`
 
 ```bash
   # Creat React App
   #  npx create-react-app tmx --template typescript
-  # change directory to tmx
- cd tmx
-  # open in VS Code
- code .
-  # Initialize Storybook:
- npx sb init
- ```
+# change directory to tmx
+cd tmx
+# open in VS Code
+code .
+# Initialize Storybook:
+npx sb init
+```
 
 change `output` directory to `docs` in **`package.json`**  
 
@@ -307,26 +314,28 @@ change `output` directory to `docs` in **`package.json`**
     }
   ```  
 
+5. Reference-style:  
+![alt text][demo07]  
+1. Reference-style:  
+![alt text][demo05]  
+1. Reference-style:  
+![alt text][demo06]  
+
  ```bash
-  # Run Storybook:
-#  npm run storybook
-  # Build StoryBook:
-  npm run build-storybook
+# Run Storybook:
+npm run storybook
+# Build StoryBook:
+# npm run build-storybook
 ```
 
-5. Reference-style:  
-![alt text][demo04]  
-1. Reference-style:  
-![alt text][demo04]  
-1. Reference-style:  
-![alt text][demo04]  
-1. Reference-style:  
-![alt text][demo04]  
+## add dark theme by creating **`.storybook/manager.js`**
 
-[demo05]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-[demo06]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-[demo07]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-[demo08]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+![alt text][demo08]
+
+[demo05]: public/images/ReadMe/StoryBookDevDeps.png "Logo Title Text 2"
+[demo06]: public/images/ReadMe/StoryBookOverRides.png "Logo Title Text 2"
+[demo07]: public/images/ReadMe/StoryBookScripts.png "Logo Title Text 2"
+[demo08]: public/images/ReadMe/StroyBookThemeManager.png "Logo Title Text 2"
 
 commit changes and push to **`repo`**  
 
@@ -345,9 +354,7 @@ commit changes and push to **`repo`**
   git push
 ```
 
-add dark theme by creating **`.storybook/manager.js`**
-
-## [tmx StoryBook Demo](https://turtlewolfe.github.io/tmx/ "StoryBook demo in TypeScript")
+## [tmx StoryBook Demo](https://turtlewolfe.github.io/tmx/ "StoryBook demo")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app "cra").
 
