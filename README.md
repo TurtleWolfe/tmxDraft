@@ -1,47 +1,23 @@
-# Getting Started with CookBook
+# Getting Started with the CookBook
+
+## [https://turtlewolfe.github.io/tmx/](https://turtlewolfe.github.io/tmx/ "StoryBook demo in TypeScript")
 
 ```bash
  npx create-react-app tmx
  cd tmx
- npm install @mui/material @emotion/react @emotion/styled
- npm install @mui/icons-material
- npm install react-hook-form
+   # install MUI FrameWork 
+ npm i @mui/material @emotion/react @emotion/styled
+ npm i @mui/icons-material
+ npm i react-hook-form
  npm i react-router-dom
  npm start
  ```
 
-<!-- [I'm an inline-style link with title](https://www.google.com "Google's Homepage")   -->
 ## [MUI](https://mui.com/ "Material User Interface, The React UI library you always wanted")  
 
 ## [react-hook-form](https://react-hook-form.com/get-started "react-hook-form")  
 
 ## [react-router-dom](https://www.npmjs.com/package/react-router-dom?activeTab=versions "React Router")  
-
-# [https://turtlewolfe.github.io/tmxT/](https://turtlewolfe.github.io/tmxT/ "StoryBook demo in TypeScript")
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app "cra").
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run build-storybook`
-
-```bash
-  # Creat React App
- npx create-react-app tmxt --template typescript
-  # change directory to tmxt
- cd tmxt
-  # install UI FrameWork 
-  # MUI or React-BootStrap 
- #  npm install react-bootstrap bootstrap@5.1.3
- npm install @mui/material @emotion/react @emotion/styled
- npm install @mui/icons-material
-  # open in VS Code
- code .
-  # Initialize Storybook:
- npx sb init
- ```
 
 **`src/index.tsx` or `App.tsx`**  
 
@@ -63,6 +39,50 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 />
 ```
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app "cra").
+
+### added GitHub Pages to Available Scripts
+
+```bash
+npm i gh-pages -D
+```
+
+```json
+  },
+  "scripts": {
+    // "start": "react-scripts start",
+    // "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    // "test": "react-scripts test",
+    // "eject": "react-scripts eject"
+  },
+// ...
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "homepage": "https://turtlewolfe.github.io/tmx"
+}
+```
+
+### added StoryBook to Available Scripts
+
+In the project directory, you can run:
+
+### `npm run build-storybook`
+
+```bash
+  # Creat React App
+  #  npx create-react-app tmx --template typescript
+  # change directory to tmx
+ cd tmx
+  # open in VS Code
+ code .
+  # Initialize Storybook:
+ npx sb init
+ ```
+
 change `output` directory to `docs` in **`package.json`**  
 
   ```json
@@ -82,7 +102,7 @@ commit changes and push to **`repo`**
 
  ```bash
   # add remote origin
-  git remote add origin git@github.com:TurtleWolfe/tmxT.git
+  git remote add origin git@github.com:TurtleWolfe/tmx.git
   git branch -M main
   git push -u origin main
   # git status
@@ -97,10 +117,9 @@ commit changes and push to **`repo`**
 
 add dark theme by creating **`.storybook/manager.js`**
 
-## [tmxT StoryBook Demo](https://turtlewolfe.github.io/tmxT/ "StoryBook demo in TypeScript")
+## [tmx StoryBook Demo](https://turtlewolfe.github.io/tmx/ "StoryBook demo in TypeScript")
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app "cra").
 
 ## Available Scripts
 
