@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/TurtleWolfe/tmx">
+  <a href="https://turtlewolfe.github.io/tmx/">
     <img src="public/images/ReadMe/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -37,8 +37,6 @@
     <a href="https://github.com/TurtleWolfe/tmx"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://turtlewolfe.github.io/tmx/">tmx Demo</a>
-    ·
     <a href="https://github.com/TurtleWolfe/tmx">Repo</a>
     ·
     <a href="https://github.com/TurtleWolfe/tmx/issues">Report Bug</a>
@@ -76,7 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://turtlewolfe.github.io/tmx/)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `TurtleWolfe`, `tmx`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
 
