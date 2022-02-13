@@ -66,6 +66,20 @@ npm i gh-pages -D
 }
 ```
 
+1. Reference-style:  
+![alt text][demo04]  
+1. Reference-style:  
+![alt text][demo04]  
+1. Reference-style:  
+![alt text][demo04]  
+1. Reference-style:  
+![alt text][demo04]  
+
+[demo01]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[demo02]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[demo03]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[demo04]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
 ### added StoryBook to Available Scripts
 
 In the project directory, you can run:
@@ -97,6 +111,20 @@ change `output` directory to `docs` in **`package.json`**
   # Build StoryBook:
   npm run build-storybook
 ```
+
+5. Reference-style:  
+![alt text][demo04]  
+1. Reference-style:  
+![alt text][demo04]  
+1. Reference-style:  
+![alt text][demo04]  
+1. Reference-style:  
+![alt text][demo04]  
+
+[demo05]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[demo06]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[demo07]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[demo08]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 commit changes and push to **`repo`**  
 
