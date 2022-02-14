@@ -9,7 +9,8 @@ export default function Footer(props) {
     <Paper
       sx={{
         width: 1,
-        minHeight: "80px",
+        minHeight: "30px",
+        maxHeight: "60px",
         // bgcolor: "#f8f8ff",
         bgcolor: "primary.main",
         borderTop: 2,
@@ -31,7 +32,15 @@ export default function Footer(props) {
           href="https://github.com/TurtleWolfe/tmx"
           underline="hover"
         >
-          {'© 2022 tmx'}
+          <h3>
+            <span
+              role="img"
+              aria-label="moto cross"
+            >
+              🏍️
+            </span>
+            {' © 2022 tMX '}
+          </h3>
         </Link>
       </Typography>
     </Paper>

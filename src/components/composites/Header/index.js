@@ -57,7 +57,7 @@ export default function Header() {
                 style={{ height: "64px", padding: "8px", marginRight: "8px" }}
               />
               <Typography variant="h4" sx={{ fontWeight: "bold" }}>
-                TeamMX
+                tMX
               </Typography>
             </Box>
             <Stack direction="row" alignItems="center" spacing={8}>

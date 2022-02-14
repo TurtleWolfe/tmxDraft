@@ -9,7 +9,8 @@ import Footer from "./components/Footer";
 import MuiCard from './components/MuiCard';
 import Button from '@mui/material/Button';
 import RecipeList from "./pages/RecipeList";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
+import HoMip from "./pages/HoMip";
 import Help from "./pages/Help";
 import TestingArea from "./pages/TestingArea";
 import LogIn from "./pages/LogIn";
@@ -21,7 +22,8 @@ function App() {
       <Header />
       <div style={{ minHeight: "75vh" }}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<HoMip />} />
           <Route path="/help" element={<Help />} />
           <Route
             path="/recipes"

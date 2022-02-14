@@ -334,6 +334,9 @@ npm run storybook
 [demo06]: public/images/ReadMe/StoryBookOverRides.png "Logo Title Text 2"
 [demo07]: public/images/ReadMe/StoryBookScripts.png "Logo Title Text 2"
 [demo08]: public/images/ReadMe/StroyBookThemeManager.png "Logo Title Text 2"
+[demo09]: public/images/ReadMe/APIreferrers.png "Logo Title Text 2"
+[demo10]: public/images/ReadMe/APIServices.png "Logo Title Text 2"
+<!-- [demo10]: public/images/ReadMe/APIServices.png "Logo Title Text 2" -->
 
 commit changes and push to **`repo`**  
 
@@ -351,6 +354,44 @@ commit changes and push to **`repo`**
   # git push
   git push
 ```
+
+## [use-places-autocomplete](https://www.npmjs.com/package/use-places-autocomplete "This is a React hook for Google Maps Places Autocomplete, which helps you build a UI component with the feature of place autocomplete easily! By leveraging the power of Google Maps Places API, you can provide a great UX (user experience) for user interacts with your search bar or form etc. Hope you guys 👍🏻 it.")  
+
+## [@react-google-maps/api](https://www.npmjs.com/package/@react-google-maps/api "@react-google-maps/api provides very simple bindings to the google maps api and lets you use it in your app as React components.")  
+
+## [@reach/combobox](https://www.npmjs.com/package/combobox "Combobox is a JavaScript plugin that will automatically turn a regular ol‘ select element into an autocomplete. It is only 6KB minified and doesn‘t have any dependencies. It comes with some default styles, but provides markup that can be easily customized if needed. It was built with accesibility in mind and makes full use of ARIA attributes and roles to be screen reader friendly.")  
+
+## [date-fns](https://www.npmjs.com/package/date-fns "date-fns provides the most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js.")  
+
+## [https://www.latlong.net/](https://www.latlong.net/ "Latitude and Longitude Finder")  
+
+```bash
+ npm i use-places-autocomplete
+ npm i @react-google-maps/api
+ npm i @reach/combobox
+ npm i date-fns
+ ```
+
+enbable  
+
+### `Maps JavaScript API` &  
+
+### `Places API`
+
+## **`.env.local`**
+
+```evv
+REACT_APP_GOOGLE_PLACES_API_KEY="***"
+```
+
+1. Reference-style:  
+![alt text][demo09]  
+1. Reference-style:  
+![alt text][demo10]  
+
+1. add **`.env.local`** file to **`.gitignore`**  
+and the **`GitHub`**  repo:  
+![alt text][demo10]  
 
 ## [tmx StoryBook Demo](https://turtlewolfe.github.io/tmx/ "StoryBook demo")
 
