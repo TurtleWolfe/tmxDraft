@@ -120,15 +120,16 @@ export default function HoMip() {
             key={marker.time.toISOString()}
             // key={`${marker.lat}-${marker.lng}`}
             position={{ lat: marker.lat, lng: marker.lng }}
-          // onClick={() => {
-          //   // setSelected(marker);
-          // }}
-          // icon={{
-          //   url: `/bear.svg`,
-          //   origin: new window.google.maps.Point(0, 0),
-          //   anchor: new window.google.maps.Point(15, 15),
-          //   scaledSize: new window.google.maps.Size(30, 30),
-          // }}
+            onClick={() => {
+              // setSelected(marker);
+            }}
+            icon={{
+              // url: `/bear.svg`,
+              url: `https://svgsilh.com/svg/3099328.svg`,
+              origin: new window.google.maps.Point(0, 0),
+              anchor: new window.google.maps.Point(40, 40),
+              scaledSize: new window.google.maps.Size(100, 100),
+            }}
           />
         ))}
 
